@@ -31,3 +31,7 @@ hr {
   border-width: 3px;
   width: 70%;
 }
+
+#presentationHeader {
+  background-color: #3f72af;
+}

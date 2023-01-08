@@ -41,7 +41,17 @@ hr {
 
 #salutation {
   margin: auto;
+  margin-bottom: 70px;
   padding-top: 100px;
   font-size: 64px;
-  width: 35%;
+  width: 25%;
+}
+
+#name {
+  color: azure;
+}
+
+#introDescription {
+  margin-top: 100px;
+  font-size: 50px;
 }

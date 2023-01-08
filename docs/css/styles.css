@@ -20,9 +20,10 @@
 }
 
 body {
-  background-color: #dbe2ef;
+  background-color: #a2bee1;
   font-family: "Computer Modern Serif", serif;
   margin: 0;
+  text-align: center;
 }
 
 hr {
@@ -33,8 +34,11 @@ hr {
   width: 70%;
 }
 
+h2 {
+  margin-bottom: 0;
+}
+
 #presentationSection {
-  background-color: #3f72af;
   margin: 0;
   text-align: center;
 }

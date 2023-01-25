@@ -1,0 +1,28 @@
+#appBackground {
+  width: 500px;
+  height: 500px;
+  background-color: #d3d3d3;
+  border: solid 2px #696969;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+}
+h1 {
+  text-align: center;
+}
+#ground {
+  position: relative;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+#baseRJoint {
+  position: absolute;
+  bottom: 40px;
+  z-index: 1;
+}

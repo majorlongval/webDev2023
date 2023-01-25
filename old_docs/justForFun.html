@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>A Moving Robot</title>
+    <link rel="stylesheet" href="css/robot_style.css" />
+  </head>
+  <body>
+    <h1>A Moving Robot</h1>
+    <div id="appBackground">
+      <div id="ground"></div>
+      <svg id="baseRJoint" width="20" height="20"></svg>
+      <script>
+        var svg = document.getElementById("baseRJoint");
+        var circle = document.createElementNS(
+          "http://www.w3.org/2000/svg",
+          "circle"
+        );
+        circle.setAttribute("cx", 10);
+        circle.setAttribute("cy", 10);
+        circle.setAttribute("r", 10);
+        circle.setAttribute("fill", "red");
+        svg.appendChild(circle);
+      </script>
+    </div>
+  </body>
+</html>

@@ -6,3 +6,38 @@
   text-align: right;
   padding-right: 10pt;
 }
+
+#presentation {
+  background-color: lightgray;
+  text-align: center;
+  padding-top: 40pt;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#myNamePresentation {
+  vertical-align: middle;
+}
+
+#profile_picture {
+  width: 100%;
+}
+
+#HiImJordan {
+  font-family: "Montserrat";
+  font-size: clamp(3rem, 12vw, 4rem);
+}
+
+#WhereIWork {
+  padding-top: 60px;
+}
+
+#NameHighlight {
+  text-decoration-line: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 8px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
